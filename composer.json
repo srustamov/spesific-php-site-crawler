@@ -1,0 +1,24 @@
+{
+    "name": "tt/crawler",
+    "authors": [
+        {
+            "name": "Samir Rustamov",
+            "email": "rustemovv96@gmail.com"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^2.2",
+        "nesbot/carbon": "^2.34",
+      "ext-curl": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "./Crawler.php"
+        ]
+    }
+    
+}
